@@ -1,0 +1,8 @@
+streamlit
+pandas
+polars-u64-idx
+pyarrow
+numpy
+matplotlib
+seaborn
+python-dotenv 
