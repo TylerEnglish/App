@@ -27,7 +27,7 @@ jobs:
             pip install flake8 black  # Install linters
         - name: Run flake8 Linting
           run: |
-            flake8 Scripts  # Lint the Scripts directory with flake8
+            flake8 scripts  # Lint the Scripts directory with flake8
           continue-on-error: false
         - name: Run black Linting
           run: |
