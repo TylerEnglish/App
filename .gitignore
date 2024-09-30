@@ -287,5 +287,3 @@ thumbs.db
 *.xlsx
 *.xlsm
 
-# Recommendation: Keep large data files in a separate storage or repository.
-# Use symbolic links or cloud storage (e.g., AWS S3, Google Drive) to reference large files.
