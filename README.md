@@ -18,7 +18,6 @@ The project is organized into several directories, each serving a specific purpo
 
 - **.github/workflows/**: Contains GitHub Actions workflows for CI/CD automation.
   - `test.yml`: Runs unit and integration tests automatically.
-  - `lint.yml`: Checks code quality using linters.
 
 - **raw_data/**: Contains raw data files and instructions.
   - `README.md`: Instructions for handling raw data.
@@ -68,7 +67,7 @@ To set up this project, follow these steps:
 
    ```bash
 
-    pip install -r ./docs/requirements.txt
+    pip install -r requirements.txt
    ```
 
 4. **Set up enviroment variables**:
@@ -92,15 +91,11 @@ The `Template_App` is designed to build dashboard or automate task easily:
 
 3. **Testing**: The `test/` directory contains unit and integration tests to ensure the code quality and functionality. The tests are run automatically using GitHub Actions (see `.github/workflows/test.yml`).
 
-4. **Code Quality Checks**: The `lint.yml` workflow runs linters like `flake8` and `black` to maintain code quality and consistency.
-
 ## Security Considerations
 
 - **Environment Variables**: Sensitive information such as database credentials, API keys, and secret keys should be stored in environment variables. Use the `.env.example` file as a template, and do not commit the `.env` file to version control.
 
 - **Access Control**: Ensure that only authorized users have access to the repository, especially when it contains sensitive data or credentials.
-
-- **Code Quality and Security**: Utilize linters and security checks (`flake8`, `bandit`, etc.) to identify potential vulnerabilities and ensure code quality.
 
 - **Data Security**: Be mindful of the size and sensitivity of data files. Avoid committing large files directly into the repository. Consider using external storage solutions for large datasets.
 
