@@ -2,10 +2,6 @@
 
 This directory contains processed data files that are generated as outputs from the data processing and analysis pipelines.
 
-## Files
-
-- **processed_data.csv**: A sample processed data file resulting from running the data processing pipeline on the raw data. This file represents the cleaned and transformed data ready for analysis or further use.
-
 ## Guidelines
 
 1. **Data Format**: All processed data should be in approated formats and maintain consistency with naming conventions and schema.
