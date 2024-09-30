@@ -2,10 +2,6 @@
 
 This directory contains raw data files that serve as the input for data processing and analysis pipelines.
 
-## Files
-
-- **sample_data.csv**: A sample raw data file provided for testing and development purposes. This file is meant to simulate the input data that the pipeline processes.
-
 ## Guidelines
 
 1. **Data Format**: Ensure that all raw data files are in approated formats and adhere to the expected schema and structure.
